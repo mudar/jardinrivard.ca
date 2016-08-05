@@ -570,6 +570,53 @@ Blog Section
   background: #f2f2f2;
 }
 
+
+/* ==========================================================================
+MAPS CONTAINER
+========================================================================== */
+
+#maps-container {
+  position: relative;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+#maps-container .map-inner {
+  height: 400px;
+}
+#maps-container .map-inner {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#map_overlay_top {
+  background: transparent -moz-linear-gradient(center top , #000 0%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0;
+}
+#map_overlay_top {
+  height: 20px;
+  left: 0;
+  opacity: 0.2;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+#map_overlay_bottom {
+  background: transparent -moz-linear-gradient(center bottom , #000 0%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0;
+}
+#map_overlay_bottom {
+  bottom: 0;
+  height: 20px;
+  left: 0;
+  opacity: 0.2;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
 /* ==========================================================================
 MEDIA QUERIES
 ========================================================================== */
