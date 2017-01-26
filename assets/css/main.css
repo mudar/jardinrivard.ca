@@ -267,6 +267,9 @@ Wrap Sections
   background-size: cover;
   color: #fff;
 }
+#header.winter {
+  background-image: url(../img/jardin_panorama_winter.jpg);
+}
 
 #header .icon {
   letter-spacing: 8px;
