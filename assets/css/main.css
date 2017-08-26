@@ -406,6 +406,15 @@ Box Sections
   text-shadow: 2px 2px 2px #000;
 }
 
+.divider5 {
+  background-image: url(../img/bg/monarques.jpg);
+  text-shadow: 2px 2px 2px #000;
+}
+
+.divider5 .btn {
+  text-shadow: none;
+}
+
 .divider6 {
   background-image: url(../img/bg/montreal-stade-olympique.jpg);
   text-shadow: 2px 2px 2px #000;
