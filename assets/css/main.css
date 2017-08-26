@@ -128,15 +128,15 @@ hr:before {
   height: 2px;
   background: #ccc;
 }
-
+/*
 a img {
-  background: #fff;
+  background: red;
 }
 
 .odd a img {
   background: #f5f5f5;
 }
-
+*/
 /* Titles */
 h1,h2,h3,h4,h5,h6,#header p {
   font-family: 'Roboto Slab', serif;
