@@ -11,7 +11,7 @@
 Base Styles and Bootstrap Modifications
 ========================================================================== */
 html,button,input,select,textarea {
-  color: #222;
+  color: #212121;
 }
 
 body {
@@ -73,7 +73,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  color: #555;
+  color: #424242;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
 }
@@ -141,7 +141,7 @@ a img {
 h1,h2,h3,h4,h5,h6,#header p {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  color: #333;
+  color: #212121;
 }
 h2 { font-size: 36px; }
 
@@ -202,7 +202,7 @@ blockquote cite {
   right: 0;
   font-size: 12px;
   font-style: italic;
-  color: #333;
+  color: #212121;
   font-weight: 300;
 }
 
@@ -242,6 +242,10 @@ a:before,a:after {
 
 img.centered {
   max-width: 100%;
+}
+
+.img-responsive {
+  display: inline-block;
 }
 
 /* ==========================================================================
